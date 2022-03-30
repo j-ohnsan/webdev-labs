@@ -1,5 +1,9 @@
+/*
 body * {
     box-sizing: border-box;
+    border: dotted 1px #CCC;
+    width: 50vh;
+    height: 50vh;
 }
 
 body {
@@ -9,3 +13,45 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+
+
+.page-section {
+    box-sizing: border-box;
+    border: dotted 1px #CCC;
+    width: 350px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    /*
+    Alternative syntax:
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+    margin: 10px;
+    /*
+    Alternative syntax:
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    */
+}
+
+.page-section2 {
+    /*padding: 10px;*/
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+.page-section3 {
+    /*padding: 10px;*/
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
