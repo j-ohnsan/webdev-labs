@@ -11,6 +11,42 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+.container{
+    display: flex;
+    flex-flow: row wrap; /* Makes the pics wrap */
+}
+
+section{
+    width: 300px;
+}
+
+.card{
+    box-sizing: border-box;
+    border: dotted 1px #CCC;
+    width: 300px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 10px;
+}
+
+.card-header{
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+.card-p{
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+
 
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
